@@ -625,6 +625,14 @@
     [
       "1af3901f-b640-44fc-a9d3-a0df72352f4b",
       "POWER RAILS"
+    ],
+    [
+      "f57dfead-db1e-4cdf-a861-145379faeb43",
+      "CLOCKS"
+    ],
+    [
+      "e4dde5e9-09e8-4bc4-a7c9-3c43b5505597",
+      "ADC"
     ]
   ],
   "text_variables": {}

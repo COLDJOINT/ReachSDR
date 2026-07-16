@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f0315a40-7600-4ebc-8e93-bd49dfb50097")
+	(paper "A4")
+	(title_block
+		(title "ReachSDR")
+		(rev "REV A")
+		(company "//COLDJOINT")
+		(comment 1 "HTTPS://COLDJOINT.XYZ")
+	)
+	(lib_symbols)
+)

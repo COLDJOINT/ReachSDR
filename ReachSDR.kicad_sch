@@ -4,9 +4,15 @@
 	(generator_version "9.0")
 	(uuid "db2c5d43-db60-4f79-87a7-e62926853608")
 	(paper "A4")
+	(title_block
+		(title "ReachSDR")
+		(rev "REV A")
+		(company "//COLDJOINT")
+		(comment 1 "HTTPS://COLDJOINT.XYZ")
+	)
 	(lib_symbols)
 	(sheet
-		(at 12.7 15.24)
+		(at 62.23 15.24)
 		(size 46.99 41.91)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +28,7 @@
 		)
 		(uuid "1af3901f-b640-44fc-a9d3-a0df72352f4b")
 		(property "Sheetname" "POWER RAILS"
-			(at 12.7 14.5284 0)
+			(at 62.23 14.5284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +37,7 @@
 			)
 		)
 		(property "Sheetfile" "POWER_RAILS.kicad_sch"
-			(at 12.7 57.7346 0)
+			(at 62.23 57.7346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43,6 +49,90 @@
 			(project "ReachSDR"
 				(path "/db2c5d43-db60-4f79-87a7-e62926853608"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 110.49 15.24)
+		(size 46.99 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e4dde5e9-09e8-4bc4-a7c9-3c43b5505597")
+		(property "Sheetname" "ADC"
+			(at 110.49 14.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ADC.kicad_sch"
+			(at 110.49 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ReachSDR"
+				(path "/db2c5d43-db60-4f79-87a7-e62926853608"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 12.7 15.24)
+		(size 46.99 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f57dfead-db1e-4cdf-a861-145379faeb43")
+		(property "Sheetname" "CLOCKS"
+			(at 12.7 14.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CLOCKS.kicad_sch"
+			(at 12.7 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ReachSDR"
+				(path "/db2c5d43-db60-4f79-87a7-e62926853608"
+					(page "3")
 				)
 			)
 		)
