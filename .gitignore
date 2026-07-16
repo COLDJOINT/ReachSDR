@@ -1,7 +1,12 @@
 # KiCad
 *.kicad_prl
 *.kicad_sch-bak
-_autosave-*
 *.lck
-#auto_saved_files#
 fp-info-cache
+
+# Autosaves
+_autosave-*
+#auto_saved_files#
+
+# Backups
+ReachSDR-backups/
